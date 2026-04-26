@@ -1,5 +1,10 @@
 "use client";
 
+// Edge runtime is required for dynamic routes on Cloudflare Pages.
+// This config applies to the route's server-rendered shell; the page itself
+// is a "use client" component and hydrates on the browser.
+export const runtime = "edge";
+
 import { useEffect, useState, use } from "react";
 import Link from "next/link";
 
