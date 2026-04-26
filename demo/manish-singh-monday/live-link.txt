@@ -1,6 +1,9 @@
-[FILL THIS AFTER FIRST CLOUDFLARE PAGES DEPLOY]
+https://krishak-voice-bot.pages.dev/
 
-Expected format: https://krishak-voice-bot.pages.dev
-(or your custom domain if you set one in Cloudflare Pages dashboard)
+Cloudflare Pages project: krishak-voice-bot
+Account: 7029c1be1d154f0f5bd2c0f3b1326831
+Deployed: 2026-04-26 via GitHub Actions (run #7)
+Agent: agent_9501kq559m78ewxb56ypsqaa6f8b
+Voice: vxeICktjKaYzkMOFXiUL (CM Mohan Yadav clone)
 
-Then regenerate qr-code.png against this URL — see ./README.md for instructions.
+QR code: ./qr-code.png (already targets this URL — no regeneration needed)
