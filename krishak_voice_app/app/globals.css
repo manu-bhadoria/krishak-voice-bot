@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light, warm "paper" palette — khet-green + earth-warm for krishak */
+  --paper:        #fff8ed;
+  --paper-soft:   #faf0dc;
+  --paper-deep:   #f4e7ca;
+  --line:         #e8dcc1;
+  --line-strong:  #d9c9a6;
+  --ink:          #1e1812;
+  --ink-soft:     #4a4035;
+  --ink-muted:    #80746a;
+  --ink-dim:      #a69b8f;
+  --wheat:        #c89b3c;       /* primary accent — wheat gold */
+  --wheat-hi:     #e1b552;
+  --wheat-glow:   rgba(200, 155, 60, 0.30);
+  --crop:         #4a7c30;       /* secondary — crop green */
+  --crop-hi:      #6ba548;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+  /* System Devanagari stack — no external font fetch, no MIME-type issues on hostile networks. */
+  font-family:
+    'Nirmala UI',        /* Windows Devanagari */
+    'Kohinoor Devanagari',/* macOS */
+    'Noto Sans Devanagari',
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--wheat); color: #fff; }
+
+.hindi-serif {
+  font-family:
+    'Georgia', 'Nirmala UI', 'Kohinoor Devanagari', 'Noto Sans Devanagari', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.text-wheat { color: var(--wheat); }
+.bg-wheat { background-color: var(--wheat); }
+.border-wheat { border-color: var(--wheat); }
+.text-crop { color: var(--crop); }
+.bg-crop { background-color: var(--crop); }
+
+/* Ambient backdrop — warm paper with soft wheat-gold + crop-green glows. */
+.backdrop-hero {
+  background:
+    radial-gradient(1000px 650px at 50% -10%, rgba(225, 181, 82, 0.20), transparent 60%),
+    radial-gradient(800px 650px at 85% 110%, rgba(107, 165, 72, 0.10), transparent 55%),
+    radial-gradient(650px 500px at 10% 95%, rgba(200, 155, 60, 0.10), transparent 55%),
+    #fff8ed;
+}
+
+/* Wheat pulse ring — transform+opacity only, GPU-friendly */
+@keyframes wheat-ring {
+  0%   { transform: scale(1);    opacity: 0.55; }
+  100% { transform: scale(1.22); opacity: 0; }
+}
+.speaking-ring {
+  animation: wheat-ring 1.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+@keyframes soft-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.5; }
+}
+.soft-pulse { animation: soft-pulse 1.8s ease-in-out infinite; }
+
+@keyframes subtle-float {
+  0%, 100% { transform: translateY(0px); }
+  50%      { transform: translateY(-3px); }
+}
+.subtle-float { animation: subtle-float 4.5s ease-in-out infinite; }
+
+.nav-glass {
+  background: rgba(255, 248, 237, 0.80);
+  backdrop-filter: blur(14px) saturate(1.15);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  border-bottom: 1px solid var(--line);
+}
+
+.btn-wheat {
+  background: linear-gradient(180deg, #e1b552 0%, #c89b3c 100%);
+  color: #fff;
+  box-shadow: 0 10px 24px -8px var(--wheat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+.btn-wheat:hover:not(:disabled) {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px -8px var(--wheat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+.btn-wheat:active:not(:disabled) {
+  transform: translateY(0);
+  filter: brightness(0.96);
+}
+.btn-wheat:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--ink-soft);
+  border: 1px solid var(--line-strong);
+  transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+.btn-ghost:hover {
+  color: var(--ink);
+  border-color: var(--wheat);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.btn-danger {
+  background: #dc2626;
+  color: #fff;
+  transition: background 120ms ease, transform 120ms ease;
+}
+.btn-danger:hover { background: #ef4444; }
+.btn-danger:active { transform: translateY(1px); }
+
+/* Surfaces (for dashboard rows / KPI cards on light theme) */
+.surface-card {
+  background: #fffdf7;
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+.surface-row-alt { background: #faf3e3; }
+.surface-row-hover:hover { background: #f4e7ca; }
+
+.kicker {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  body { -webkit-tap-highlight-color: transparent; }
+}

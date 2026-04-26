@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.local
+.env*.local
+**/.env
+**/.env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# OS / editor
+.DS_Store
+*.swp
+*Zone.Identifier
+
+# Reference-only (sahayak is someone else's repo we studied)
+sahayak_ref/
+
+# Local audio samples (voice clone source — don't commit)
+*.mp3
+*.wav
+*.m4a
+# …except the pre-rendered first-message audio (production asset, not voice
+# clone source — needed by the krishak app at runtime to eliminate turn-0 lag).
+!krishak_voice_app/public/first-message.mp3
+
+# Vercel build output (used by @cloudflare/next-on-pages)
+.vercel/
+
+# Local Netlify folder
+.netlify/
+
+# Cloudflare Pages cache (only created when running `wrangler pages dev`)
+.wrangler/

@@ -1,0 +1,6 @@
+[FILL THIS AFTER FIRST CLOUDFLARE PAGES DEPLOY]
+
+Expected format: https://krishak-voice-bot.pages.dev
+(or your custom domain if you set one in Cloudflare Pages dashboard)
+
+Then regenerate qr-code.png against this URL — see ./README.md for instructions.

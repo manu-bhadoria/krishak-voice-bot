@@ -1,0 +1,1982 @@
+{
+  "documents": [
+    {
+      "id": "PiGGNjrDuTSvcxkQlr2Y",
+      "name": "knowledge_base_krishak_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1777216058,
+        "last_updated_at_unix_secs": 1777216058,
+        "size_bytes": 87020
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501kq559m78ewxb56ypsqaa6f8b",
+          "name": "Krishak Voice Bot — Dr. Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1777216050,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "r6K01fpEK1YJMAJnNlY9",
+      "name": "knowledge_base_krishak.md",
+      "metadata": {
+        "created_at_unix_secs": 1777216057,
+        "last_updated_at_unix_secs": 1777216057,
+        "size_bytes": 19213
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501kq559m78ewxb56ypsqaa6f8b",
+          "name": "Krishak Voice Bot — Dr. Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1777216050,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "vV9F4OjHbQd4XsxRHFvG",
+      "name": "12-what-women-want-asked.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859110,
+        "last_updated_at_unix_secs": 1776859110,
+        "size_bytes": 9383
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "HNnaFBJf40ZjEmUZAsrO",
+      "name": "11-problems-deep.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859109,
+        "last_updated_at_unix_secs": 1776859109,
+        "size_bytes": 9845
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "pzHWooHh8GtoEeZlNmmf",
+      "name": "10-sources.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859108,
+        "last_updated_at_unix_secs": 1776859108,
+        "size_bytes": 2807
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "PQSn9d6Z5MKAZkMWbjFe",
+      "name": "09-outreach-talking-points.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859107,
+        "last_updated_at_unix_secs": 1776859107,
+        "size_bytes": 4587
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "Semf8ziUHpIJp7uKTBiq",
+      "name": "08-recent-updates.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859106,
+        "last_updated_at_unix_secs": 1776859106,
+        "size_bytes": 2368
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "5zbZ2rgzag51jT2d9dEr",
+      "name": "07-exclusions-grievances.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859105,
+        "last_updated_at_unix_secs": 1776859105,
+        "size_bytes": 4238
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "VLyjX8543XxAjyK00UBB",
+      "name": "06-history-politics.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859104,
+        "last_updated_at_unix_secs": 1776859104,
+        "size_bytes": 3986
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "BX6NEJdJGfaGVwDKcst8",
+      "name": "05-coverage-stats.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859103,
+        "last_updated_at_unix_secs": 1776859103,
+        "size_bytes": 2956
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "SXm0KbwT94dhJSagJ7fi",
+      "name": "04-application-kyc.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859102,
+        "last_updated_at_unix_secs": 1776859102,
+        "size_bytes": 3506
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "gzHBHANzJB9LqteIwZ4p",
+      "name": "03-benefits-disbursement.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859101,
+        "last_updated_at_unix_secs": 1776859101,
+        "size_bytes": 2753
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "QqsAZI4kOib6ZHmk8Ts5",
+      "name": "02-eligibility.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859100,
+        "last_updated_at_unix_secs": 1776859100,
+        "size_bytes": 2313
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "PXLdFwRtwGVIIzz788LE",
+      "name": "01-scheme-overview.md",
+      "metadata": {
+        "created_at_unix_secs": 1776859099,
+        "last_updated_at_unix_secs": 1776859099,
+        "size_bytes": 2367
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "6CwnmqMLVYKfWGNwUJGP",
+      "name": "12-what-women-want-asked.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858604,
+        "last_updated_at_unix_secs": 1776858604,
+        "size_bytes": 9383
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "p3tuHWAVOEf9IiUM0QPs",
+      "name": "11-problems-deep.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858602,
+        "last_updated_at_unix_secs": 1776858602,
+        "size_bytes": 9845
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "VOAl4eiXWlHkZiKQT1FH",
+      "name": "10-sources.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858601,
+        "last_updated_at_unix_secs": 1776858601,
+        "size_bytes": 2807
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "HrR4bJDnlvTt4EvKSwJ2",
+      "name": "08-recent-updates.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858600,
+        "last_updated_at_unix_secs": 1776858600,
+        "size_bytes": 2368
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "qz705DGjvGuK5cOePe30",
+      "name": "09-outreach-talking-points.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858600,
+        "last_updated_at_unix_secs": 1776858600,
+        "size_bytes": 4581
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "JwfJlAeJ2WJLSCRxqehB",
+      "name": "07-exclusions-grievances.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858598,
+        "last_updated_at_unix_secs": 1776858598,
+        "size_bytes": 4238
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "82vjp1b8Cxy6FfAq1N1T",
+      "name": "06-history-politics.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858597,
+        "last_updated_at_unix_secs": 1776858597,
+        "size_bytes": 3986
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "LsMSqPvnueejjythpqg7",
+      "name": "05-coverage-stats.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858596,
+        "last_updated_at_unix_secs": 1776858596,
+        "size_bytes": 2956
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "6VRRbAmCBmBhvPjiGAlh",
+      "name": "03-benefits-disbursement.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858595,
+        "last_updated_at_unix_secs": 1776858595,
+        "size_bytes": 2753
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "JNA8N5ral6Meydaws1OK",
+      "name": "04-application-kyc.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858595,
+        "last_updated_at_unix_secs": 1776858595,
+        "size_bytes": 3506
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "3ViMhxbKG5hYDh90qBLn",
+      "name": "02-eligibility.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858594,
+        "last_updated_at_unix_secs": 1776858594,
+        "size_bytes": 2313
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "sJDAJMwcUFeh0J8pZUpX",
+      "name": "01-scheme-overview.md",
+      "metadata": {
+        "created_at_unix_secs": 1776858593,
+        "last_updated_at_unix_secs": 1776858593,
+        "size_bytes": 2364
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9901kpt6a6xqf3gaahtr44ycvqgc",
+          "name": "Ladli Behna Outreach — CM Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776848019,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "O5KxAq3BYE84CGn4pVDE",
+      "name": "11-problems-deep.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848042,
+        "last_updated_at_unix_secs": 1776848042,
+        "size_bytes": 9845
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "QnK3uAGzSMzZPmV2xKdV",
+      "name": "12-what-women-want-asked.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848042,
+        "last_updated_at_unix_secs": 1776848042,
+        "size_bytes": 9383
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "yKoI0JVAAbcCsEOujvpC",
+      "name": "10-sources.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848041,
+        "last_updated_at_unix_secs": 1776848041,
+        "size_bytes": 2807
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "OGphchbC3UszHGLxFBb5",
+      "name": "09-outreach-talking-points.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848040,
+        "last_updated_at_unix_secs": 1776848040,
+        "size_bytes": 4587
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "m0edSlCABXUtBybEn55l",
+      "name": "08-recent-updates.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848039,
+        "last_updated_at_unix_secs": 1776848039,
+        "size_bytes": 2368
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "AuYxLz5fe8R94ZC7kVY3",
+      "name": "07-exclusions-grievances.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848038,
+        "last_updated_at_unix_secs": 1776848038,
+        "size_bytes": 4238
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "EVBXqBNvPxQOIgmzrlMP",
+      "name": "06-history-politics.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848037,
+        "last_updated_at_unix_secs": 1776848037,
+        "size_bytes": 3986
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "KKtPIRUfyUflowBDT5MB",
+      "name": "05-coverage-stats.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848037,
+        "last_updated_at_unix_secs": 1776848037,
+        "size_bytes": 2956
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "Eh8LqOc05AeoZ8goyQQk",
+      "name": "04-application-kyc.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848036,
+        "last_updated_at_unix_secs": 1776848036,
+        "size_bytes": 3506
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "a86cFnBKnlZBIDebexMi",
+      "name": "03-benefits-disbursement.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848035,
+        "last_updated_at_unix_secs": 1776848035,
+        "size_bytes": 2753
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "6Ey52svQUTFODRBIRdAT",
+      "name": "02-eligibility.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848034,
+        "last_updated_at_unix_secs": 1776848034,
+        "size_bytes": 2313
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "FsgBIvOe3tpBThOi3d8a",
+      "name": "01-scheme-overview.md",
+      "metadata": {
+        "created_at_unix_secs": 1776848033,
+        "last_updated_at_unix_secs": 1776848033,
+        "size_bytes": 2367
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "BelT8a9O6DK137z1XLV1",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776843616,
+        "last_updated_at_unix_secs": 1776843616,
+        "size_bytes": 116157
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1401kpna1qqne27ay7b5bdy43s4h",
+          "name": "CM Voice Bot — Dr. Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776684163,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "bqX4Tl3uVHSXStFOiIO6",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776843615,
+        "last_updated_at_unix_secs": 1776843615,
+        "size_bytes": 45156
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1401kpna1qqne27ay7b5bdy43s4h",
+          "name": "CM Voice Bot — Dr. Mohan Yadav (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776684163,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "QhHPvIZtu6zaV4bWDZAu",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776755983,
+        "last_updated_at_unix_secs": 1776755983,
+        "size_bytes": 119497
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "GSkar3Vd94azKpk1a4BJ",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776755982,
+        "last_updated_at_unix_secs": 1776755982,
+        "size_bytes": 44401
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "QKE0M5j8xkrfJDNeLch3",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776699247,
+        "last_updated_at_unix_secs": 1776699247,
+        "size_bytes": 100949
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "pZrg4wKxScwDLuj9J5Q5",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776699246,
+        "last_updated_at_unix_secs": 1776699246,
+        "size_bytes": 44401
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "85pZWVhwHuLY71wxsb5f",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776698000,
+        "last_updated_at_unix_secs": 1776698000,
+        "size_bytes": 90308
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "Oajm45rY4yEFWgdpxzcW",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776697998,
+        "last_updated_at_unix_secs": 1776697998,
+        "size_bytes": 44401
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "fyAz74hvBnXtq2poOL71",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776697154,
+        "last_updated_at_unix_secs": 1776697154,
+        "size_bytes": 84152
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "BxAV29ckDkpZb96OWv1K",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776697146,
+        "last_updated_at_unix_secs": 1776697146,
+        "size_bytes": 44401
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "J1mDxxc6KNxAjv51oyqD",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694906,
+        "last_updated_at_unix_secs": 1776694906,
+        "size_bytes": 84152
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "m7ot2FARhwBXvTtmH9Si",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694905,
+        "last_updated_at_unix_secs": 1776694905,
+        "size_bytes": 44401
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "BKQQ84fhooE6Ed2VkUYB",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694436,
+        "last_updated_at_unix_secs": 1776694436,
+        "size_bytes": 84060
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "fprIPmFSaWJMyxW4rzxc",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694435,
+        "last_updated_at_unix_secs": 1776694435,
+        "size_bytes": 44730
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "1iaAQGR53k1h9k7sTJPm",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694411,
+        "last_updated_at_unix_secs": 1776694411,
+        "size_bytes": 84060
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "fy2XHtbDvVE3Y6O8wJNj",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776694409,
+        "last_updated_at_unix_secs": 1776694409,
+        "size_bytes": 44730
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "hAI1BNMJGZtnymYrYbni",
+      "name": "knowledge_base_ext.md",
+      "metadata": {
+        "created_at_unix_secs": 1776684199,
+        "last_updated_at_unix_secs": 1776684199,
+        "size_bytes": 84027
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "FyCSkzLjsyZaun87T5E8",
+      "name": "knowledge_base.md",
+      "metadata": {
+        "created_at_unix_secs": 1776684198,
+        "last_updated_at_unix_secs": 1776684198,
+        "size_bytes": 44730
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [],
+      "type": "file"
+    },
+    {
+      "id": "XotegFcXqn4qO020Axwz",
+      "name": "alok_sharma_full_kb",
+      "metadata": {
+        "created_at_unix_secs": 1776072651,
+        "last_updated_at_unix_secs": 1776072651,
+        "size_bytes": 14649
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_5601kp32z7z9f658jxdqqw7jnrhs",
+          "name": "Sahayak — MP Alok Sharma Bhopal (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776072762,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "VBVcm1uI22a8wB94hDii",
+      "name": "rameshwar_sharma_full_kb",
+      "metadata": {
+        "created_at_unix_secs": 1776072649,
+        "last_updated_at_unix_secs": 1776072649,
+        "size_bytes": 11247
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_6301kp32xvawfbjvq62jgrhf8qk1",
+          "name": "Sahayak — MLA Rameshwar Sharma (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1776072716,
+          "access_level": "admin"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "id": "ucHxCnpzFmSddFxymjfC",
+      "name": "constituency_raisen_narmadapuram_deep",
+      "metadata": {
+        "created_at_unix_secs": 1775906806,
+        "last_updated_at_unix_secs": 1775906806,
+        "size_bytes": 6793
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "fPnKif4oWtxgxtY92SHv",
+      "name": "health_schemes_citizen_guide",
+      "metadata": {
+        "created_at_unix_secs": 1775906708,
+        "last_updated_at_unix_secs": 1775906708,
+        "size_bytes": 6848
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "fr28wV9w2Ur5GSPGwMcX",
+      "name": "mp_health_infrastructure_budget",
+      "metadata": {
+        "created_at_unix_secs": 1775906657,
+        "last_updated_at_unix_secs": 1775906657,
+        "size_bytes": 4117
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "jD8qwiY95kgoTIAgyuc8",
+      "name": "citizen_common_complaints_hindi",
+      "metadata": {
+        "created_at_unix_secs": 1775906357,
+        "last_updated_at_unix_secs": 1775906357,
+        "size_bytes": 7119
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "9rDhbsVlLj3Ir8RJeY5B",
+      "name": "minister_patel_real_voice_facebook",
+      "metadata": {
+        "created_at_unix_secs": 1775906305,
+        "last_updated_at_unix_secs": 1775906305,
+        "size_bytes": 5982
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "gGRacDRuSlcX4hCFNwbl",
+      "name": "bjp_govt_key_schemes_references",
+      "metadata": {
+        "created_at_unix_secs": 1775891786,
+        "last_updated_at_unix_secs": 1775891786,
+        "size_bytes": 3456
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "R0wNFhduOyJ9kTkCsqJf",
+      "name": "mp_health_achievements_detailed",
+      "metadata": {
+        "created_at_unix_secs": 1775891736,
+        "last_updated_at_unix_secs": 1775891736,
+        "size_bytes": 3080
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "wFOPWQaF3Hx8bqA0m8z5",
+      "name": "rss_vichardhara_philosophy",
+      "metadata": {
+        "created_at_unix_secs": 1775891709,
+        "last_updated_at_unix_secs": 1775891709,
+        "size_bytes": 5741
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "wQ2VeOOQoKoHsPixcxZs",
+      "name": "minister_patel_full_biography",
+      "metadata": {
+        "created_at_unix_secs": 1775891665,
+        "last_updated_at_unix_secs": 1775891665,
+        "size_bytes": 5237
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "PaycVlvhLObVSSzqpwfG",
+      "name": "minister_patel_guardrails",
+      "metadata": {
+        "created_at_unix_secs": 1775811728,
+        "last_updated_at_unix_secs": 1775811728,
+        "size_bytes": 3169
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "dEtZNd0X3sVhjcYS555T",
+      "name": "minister_patel_policy",
+      "metadata": {
+        "created_at_unix_secs": 1775811727,
+        "last_updated_at_unix_secs": 1775811727,
+        "size_bytes": 6123
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "id": "k8p7UWUE8l6yntgKDYl2",
+      "name": "minister_patel_phrases",
+      "metadata": {
+        "created_at_unix_secs": 1775811726,
+        "last_updated_at_unix_secs": 1775811726,
+        "size_bytes": 5066
+      },
+      "supported_usages": [
+        "prompt",
+        "auto"
+      ],
+      "access_info": {
+        "is_creator": true,
+        "creator_name": "nihilycho@gmail.com",
+        "creator_email": "nihilycho@gmail.com",
+        "role": "admin"
+      },
+      "folder_parent_id": null,
+      "folder_path": [],
+      "dependent_agents": [
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_1501kp1ewgvqe6tssgy97156a50h",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi) (v2)",
+          "type": "available",
+          "created_at_unix_secs": 1776018146,
+          "access_level": "admin"
+        },
+        {
+          "referenced_resource_ids": [],
+          "id": "agent_9501knszv41ffhhas469qm499qfn",
+          "name": "Sahayak — Minister Shivaji Patel (Hindi)",
+          "type": "available",
+          "created_at_unix_secs": 1775767491,
+          "access_level": "admin"
+        }
+      ],
+      "type": "text"
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false
+}

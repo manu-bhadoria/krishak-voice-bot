@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "krishak-voice-bot",
+  "compatibility_date": "2026-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // @cloudflare/next-on-pages emits the production bundle to .vercel/output/static.
+  // Pages serves from this directory.
+  "pages_build_output_dir": ".vercel/output/static"
+  // VOICE_AGENT_ID + VOICE_API_KEY are set as Pages environment variables via
+  // the Cloudflare dashboard (or `wrangler pages deploy --secret-name VOICE_API_KEY`).
+  // Never commit them here.
+}

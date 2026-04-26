@@ -1,0 +1,7 @@
+# Cloudflare Pages reads this file at build time and applies these headers
+# to all matching responses. Replaces the [[headers]] block from netlify.toml.
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: microphone=(self)
