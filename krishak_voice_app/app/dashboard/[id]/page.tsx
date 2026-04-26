@@ -78,7 +78,7 @@ export default function CallDetailPage({ params }: { params: Promise<{ id: strin
       <header className="nav-glass fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[60px] flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-wheat flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-8 h-8 rounded-full bg-saffron flex items-center justify-center text-white font-bold text-sm">
               कृ
             </div>
             <div className="leading-tight">
@@ -86,7 +86,7 @@ export default function CallDetailPage({ params }: { params: Promise<{ id: strin
               <p className="text-[10px] text-[#80746a] font-mono">{id}</p>
             </div>
           </div>
-          <Link href="/dashboard" className="text-[12px] text-[#80746a] hover:text-wheat">
+          <Link href="/dashboard" className="text-[12px] text-[#80746a] hover:text-saffron">
             ← Back
           </Link>
         </div>
@@ -140,7 +140,7 @@ function TurnRow({ turn }: { turn: Turn }) {
         <div className="flex items-center gap-2">
           <span
             className={`px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wider ${
-              isAgent ? "bg-wheat/20 text-wheat" : "bg-[#e8dcc1] text-[#4a4035]"
+              isAgent ? "bg-saffron/20 text-saffron" : "bg-[#e8dcc1] text-[#4a4035]"
             }`}
           >
             {turn.role}

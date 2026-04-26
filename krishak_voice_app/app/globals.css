@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* Light, warm "paper" palette — khet-green + earth-warm for krishak */
+  /* Light, warm "paper" palette — kisaan-themed: BJP saffron primary, crop-green accent */
   --paper:        #fff8ed;
   --paper-soft:   #faf0dc;
   --paper-deep:   #f4e7ca;
@@ -13,11 +13,18 @@
   --ink-soft:     #4a4035;
   --ink-muted:    #80746a;
   --ink-dim:      #a69b8f;
-  --wheat:        #c89b3c;       /* primary accent — wheat gold */
+  /* Primary — BJP saffron */
+  --saffron:      #e6761f;
+  --saffron-hi:   #ff9933;
+  --saffron-glow: rgba(230, 118, 31, 0.30);
+  /* Kisaan accent — crop-green */
+  --crop:         #4a7c30;
+  --crop-hi:      #6ba548;
+  --crop-glow:    rgba(107, 165, 72, 0.35);
+  /* Legacy wheat (kept as utility — used by some templates) */
+  --wheat:        #c89b3c;
   --wheat-hi:     #e1b552;
   --wheat-glow:   rgba(200, 155, 60, 0.30);
-  --crop:         #4a7c30;       /* secondary — crop green */
-  --crop-hi:      #6ba548;
 }
 
 * { box-sizing: border-box; }
@@ -35,7 +42,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-::selection { background: var(--wheat); color: #fff; }
+::selection { background: var(--saffron); color: #fff; }
 
 .hindi-serif {
   font-family:
@@ -43,28 +50,63 @@ html, body {
   font-weight: 600;
   letter-spacing: -0.01em;
 }
+
+/* Saffron utilities (primary) */
+.text-saffron { color: var(--saffron); }
+.bg-saffron { background-color: var(--saffron); }
+.border-saffron { border-color: var(--saffron); }
+
+/* Crop-green utilities (kisaan accent) */
+.text-crop { color: var(--crop); }
+.bg-crop { background-color: var(--crop); }
+.border-crop { border-color: var(--crop); }
+
+/* Legacy wheat utilities (kept for backward compatibility) */
 .text-wheat { color: var(--wheat); }
 .bg-wheat { background-color: var(--wheat); }
 .border-wheat { border-color: var(--wheat); }
-.text-crop { color: var(--crop); }
-.bg-crop { background-color: var(--crop); }
 
-/* Ambient backdrop — warm paper with soft wheat-gold + crop-green glows. */
+/* Ambient backdrop — warm paper, soft saffron + green glows. Pure CSS, GPU-composited. */
 .backdrop-hero {
   background:
-    radial-gradient(1000px 650px at 50% -10%, rgba(225, 181, 82, 0.20), transparent 60%),
-    radial-gradient(800px 650px at 85% 110%, rgba(107, 165, 72, 0.10), transparent 55%),
-    radial-gradient(650px 500px at 10% 95%, rgba(200, 155, 60, 0.10), transparent 55%),
+    radial-gradient(1000px 650px at 50% -10%, rgba(255, 153, 51, 0.18), transparent 60%),
+    radial-gradient(800px 650px at 85% 110%, rgba(107, 165, 72, 0.14), transparent 55%),
+    radial-gradient(650px 500px at 10% 95%, rgba(255, 153, 51, 0.08), transparent 55%),
     #fff8ed;
 }
 
-/* Wheat pulse ring — transform+opacity only, GPU-friendly */
-@keyframes wheat-ring {
+/* Saffron pulse ring — primary, faster pulse */
+@keyframes saffron-ring {
   0%   { transform: scale(1);    opacity: 0.55; }
   100% { transform: scale(1.22); opacity: 0; }
 }
 .speaking-ring {
-  animation: wheat-ring 1.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+  animation: saffron-ring 1.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+/* Crop-green growth pulse — slower, evokes a sprouting/thriving crop */
+@keyframes crop-grow {
+  0%   { transform: scale(1);    opacity: 0.45; }
+  100% { transform: scale(1.32); opacity: 0; }
+}
+.growth-ring {
+  animation: crop-grow 2.4s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+}
+
+/* Soft kisaan-green status light — gentle breathing pulse on a small dot */
+@keyframes crop-glow-pulse {
+  0%, 100% {
+    opacity: 0.55;
+    box-shadow: 0 0 0 0 rgba(107, 165, 72, 0.45);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 0 5px rgba(107, 165, 72, 0);
+  }
+}
+.crop-light {
+  background: var(--crop-hi);
+  animation: crop-glow-pulse 2.0s ease-in-out infinite;
 }
 
 @keyframes soft-pulse {
@@ -86,21 +128,33 @@ html, body {
   border-bottom: 1px solid var(--line);
 }
 
+/* Primary CTA — BJP saffron */
+.btn-saffron {
+  background: linear-gradient(180deg, #ff9f3d 0%, #e6761f 100%);
+  color: #fff;
+  box-shadow: 0 10px 24px -8px var(--saffron-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+.btn-saffron:hover:not(:disabled) {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px -8px var(--saffron-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+.btn-saffron:active:not(:disabled) {
+  transform: translateY(0);
+  filter: brightness(0.96);
+}
+.btn-saffron:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* Wheat CTA (legacy alternative) */
 .btn-wheat {
   background: linear-gradient(180deg, #e1b552 0%, #c89b3c 100%);
   color: #fff;
   box-shadow: 0 10px 24px -8px var(--wheat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
   transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
 }
-.btn-wheat:hover:not(:disabled) {
-  filter: brightness(1.05);
-  transform: translateY(-1px);
-  box-shadow: 0 14px 30px -8px var(--wheat-glow), inset 0 1px 0 rgba(255, 255, 255, 0.35);
-}
-.btn-wheat:active:not(:disabled) {
-  transform: translateY(0);
-  filter: brightness(0.96);
-}
+.btn-wheat:hover:not(:disabled) { filter: brightness(1.05); transform: translateY(-1px); }
+.btn-wheat:active:not(:disabled) { transform: translateY(0); filter: brightness(0.96); }
 .btn-wheat:disabled { opacity: 0.6; cursor: not-allowed; }
 
 .btn-ghost {
@@ -111,7 +165,7 @@ html, body {
 }
 .btn-ghost:hover {
   color: var(--ink);
-  border-color: var(--wheat);
+  border-color: var(--saffron);
   background: rgba(255, 255, 255, 0.9);
 }
 

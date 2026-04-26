@@ -93,7 +93,7 @@ export default function DashboardPage() {
       <header className="nav-glass fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-[60px] flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-wheat flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-8 h-8 rounded-full bg-saffron flex items-center justify-center text-white font-bold text-sm">
               कृ
             </div>
             <div className="leading-tight">
@@ -102,13 +102,13 @@ export default function DashboardPage() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/" className="text-[12px] text-[#80746a] hover:text-wheat transition-colors">
+            <Link href="/" className="text-[12px] text-[#80746a] hover:text-saffron transition-colors">
               ← कॉल पेज
             </Link>
             <button
               onClick={load}
               disabled={refreshing}
-              className="text-[12px] text-wheat hover:opacity-80 disabled:opacity-50"
+              className="text-[12px] text-saffron hover:opacity-80 disabled:opacity-50"
             >
               {refreshing ? "..." : "↻ Refresh"}
             </button>
@@ -176,7 +176,7 @@ export default function DashboardPage() {
                   <td className="px-3 py-2">
                     <Link
                       href={`/dashboard/${c.conversation_id}`}
-                      className="text-wheat font-medium hover:underline"
+                      className="text-saffron font-medium hover:underline"
                     >
                       {c.summary_title || c.conversation_id.slice(-8)}
                     </Link>

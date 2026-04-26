@@ -65,16 +65,26 @@ function CallUI() {
   return (
     <div className="flex flex-col items-center gap-7 w-full max-w-md mx-auto">
       <div className="relative">
+        {/* Saffron primary ring (CM/BJP) — pulses while bot is speaking */}
         {isConnected && isSpeaking && (
           <>
-            <span className="absolute inset-0 rounded-full border border-[#c89b3c] speaking-ring" aria-hidden />
-            <span className="absolute inset-0 rounded-full border border-[#c89b3c] speaking-ring" style={{ animationDelay: "0.55s" }} aria-hidden />
+            <span className="absolute inset-0 rounded-full border border-[#e6761f] speaking-ring" aria-hidden />
+            <span className="absolute inset-0 rounded-full border border-[#e6761f] speaking-ring" style={{ animationDelay: "0.55s" }} aria-hidden />
+          </>
+        )}
+        {/* Crop-green growth ring (kisaan) — pulses while bot is listening (incoming side) */}
+        {isConnected && !isSpeaking && (
+          <>
+            <span className="absolute inset-0 rounded-full border border-[#6ba548] growth-ring" aria-hidden />
+            <span className="absolute inset-0 rounded-full border border-[#6ba548] growth-ring" style={{ animationDelay: "1.1s" }} aria-hidden />
           </>
         )}
         <div
           className={`relative rounded-full overflow-hidden transition-all duration-300 bg-white ${
             isConnected
-              ? "w-52 h-52 border-2 border-[#c89b3c]/80 shadow-[0_0_50px_-10px_rgba(200,155,60,0.45)]"
+              ? isSpeaking
+                ? "w-52 h-52 border-2 border-[#e6761f]/80 shadow-[0_0_50px_-10px_rgba(230,118,31,0.45)]"
+                : "w-52 h-52 border-2 border-[#6ba548]/70 shadow-[0_0_50px_-10px_rgba(107,165,72,0.40)]"
               : "w-48 h-48 border border-[#d9c9a6] shadow-[0_12px_30px_-12px_rgba(80,60,30,0.25)]"
           } subtle-float`}
         >
@@ -92,7 +102,10 @@ function CallUI() {
       </div>
 
       <div className="text-center">
-        <p className="kicker mb-2">मुख्यमंत्री · कृषक कल्याण वर्ष 2026</p>
+        <p className="kicker mb-2">
+          <span className="inline-block w-1.5 h-1.5 rounded-full crop-light align-middle mr-2" aria-hidden />
+          मुख्यमंत्री · कृषक कल्याण वर्ष 2026
+        </p>
         <h1 className="hindi-serif text-[24px] sm:text-[26px] leading-tight text-[#1e1812]">
           डॉ. मोहन यादव — किसान की सीधी लाइन
         </h1>
@@ -102,7 +115,9 @@ function CallUI() {
         {(isConnected || isConnecting) && (
           <div className="mt-3 flex items-center justify-center gap-2">
             <span
-              className="inline-block w-1.5 h-1.5 rounded-full bg-[#c89b3c] soft-pulse"
+              className={`inline-block w-1.5 h-1.5 rounded-full soft-pulse ${
+                isSpeaking ? "bg-[#e6761f]" : "bg-[#6ba548]"
+              }`}
               aria-hidden
             />
             {statusLabel && (
@@ -122,7 +137,7 @@ function CallUI() {
           <button
             onClick={start}
             disabled={isConnecting}
-            className="btn-wheat w-full max-w-xs rounded-full px-6 py-3.5 text-[15px] font-semibold"
+            className="btn-saffron w-full max-w-xs rounded-full px-6 py-3.5 text-[15px] font-semibold"
           >
             {isConnecting ? "कनेक्ट हो रहा है..." : "बात करें"}
           </button>

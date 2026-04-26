@@ -6,8 +6,11 @@ export default function Home() {
     <div className="backdrop-hero min-h-screen flex flex-col">
       <header className="nav-glass fixed top-0 left-0 right-0 z-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-[56px] flex items-center justify-between">
-          <div className="w-7 h-7 rounded-full bg-wheat flex items-center justify-center text-white font-bold text-[13px]">
-            कृ
+          <div className="flex items-center gap-2">
+            <div className="w-7 h-7 rounded-full bg-saffron flex items-center justify-center text-white font-bold text-[13px]">
+              कृ
+            </div>
+            <span className="inline-block w-1.5 h-1.5 rounded-full crop-light" aria-hidden />
           </div>
           <Link
             href="/dashboard"
