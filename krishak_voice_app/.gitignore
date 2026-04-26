@@ -14,4 +14,7 @@ next-env.d.ts
 *.mp3
 *.wav
 *.m4a
+# …except the pre-rendered first-message audio: it's a production asset
+# (eliminates ~500ms TTS gap on turn 0), not voice-clone training material.
+!public/first-message.mp3
 *Zone.Identifier
